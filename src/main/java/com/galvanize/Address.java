@@ -1,7 +1,5 @@
 package com.galvanize;
 
-import java.lang.StringBuilder;
-
 public class Address {
   private String street;
   private String city;
@@ -17,7 +15,6 @@ public class Address {
 
   @Override public String toString() {
     return String.format(street + ", " + city + ", " + state + " " + zip);
-    // return result.append(street + ", " + city + ", " + state + " " + zip);
   }
 
   public String getStreet() {
